@@ -1,0 +1,13 @@
+{
+  "name": "neet-ai-college-predictor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NEET AI College Predictor - monorepo root",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "seed:admin": "npm run seed:admin --prefix server"
+  }
+}
